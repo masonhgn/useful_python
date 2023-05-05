@@ -9,3 +9,9 @@ nums = list(map(int, nums))
 
 #how to make a 2d array
 x = [[foo for i in range(10)] for j in range(10)]
+
+
+#how to count vowels in a string
+
+def vowels(st):
+  return len([st.count(x) for x in 'aeiou'])
