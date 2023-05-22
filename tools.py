@@ -15,3 +15,7 @@ x = [[foo for i in range(10)] for j in range(10)]
 
 def vowels(st):
   return len([st.count(x) for x in 'aeiou'])
+
+
+#make frequency map
+count[i] = count.get(i, 0) + 1
